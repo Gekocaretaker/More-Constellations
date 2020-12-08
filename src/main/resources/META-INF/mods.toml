@@ -40,12 +40,12 @@ This is a extension of Astral Sorcery to add more Constellations to the game!
     ordering="NONE"
     side="BOTH"
 
-#[[dependencies.mcas]]
-#    modId="astralsorcery"
-#    mandatory=true
-#    versionRange="[1.15.2-1.12.13.v246]"
-#    ordering="BEFORE"
-#    sides="BOTH"
+[[dependencies.mcas]]
+    modId="astralsorcery"
+    mandatory=true
+    versionRange="[1.15.2-1.12.13.v246]"
+    ordering="BEFORE"
+    sides="BOTH"
 
 [[dependencies.mcas]]
     modId="observerlib"
