@@ -1,6 +1,7 @@
 package com.gekocaretaker.mcas;
 
 import com.gekocaretaker.mcas.common.CommonProxy;
+import com.gekocaretaker.mcas.common.registry.RegConstellations;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
@@ -19,6 +20,8 @@ public class MCAS {
     public MCAS() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+
+        RegConstellations.init();
 
         MinecraftForge.EVENT_BUS.register(this);
     }
