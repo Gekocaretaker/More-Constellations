@@ -44,19 +44,19 @@ This is a extension of Astral Sorcery to add more Constellations to the game!
 #    modId="astralsorcery"
 #    mandatory=true
 #    versionRange="[1.15.2-1.12.13.v246]"
-#    ordering="NONE"
+#    ordering="BEFORE"
 #    sides="BOTH"
 
 [[dependencies.mcas]]
     modId="observerlib"
     mandatory=true
     versionRange="[1.15.2-1.3,]"
-    ordering="NONE"
+    ordering="BEFORE"
     side="BOTH"
 
 [[dependencies.mcas]]
     modId="curios"
     mandatory=true
     versionRange="[FORGE-1.15.2-,)"
-    ordering="NONE"
+    ordering="BEFORE"
     side="BOTH"
